@@ -5,6 +5,4 @@ UNTAR_DIR_NAME="$1.unpacked"
 
 mkdir -p "${UNTAR_DIR_NAME}"
 
-echo ${UNTAR_DIR_NAME} >> ~/untar.log
-
 tar -xf "${ARCHIVE_PATH}" -C "${UNTAR_DIR_NAME}" 
